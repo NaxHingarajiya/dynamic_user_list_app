@@ -1,0 +1,58 @@
+body{
+  background-color: black!important;
+}
+.navbar-links{
+  margin-left: 15%;
+}
+.navbar-links li{
+  display: inline-block;
+  padding: 5px 35px;
+}
+.navbar-links a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white
+} 
+/* Custom media query for smaller screens */
+/* Custom styles for larger screens */
+@media (min-width: 992px) {
+  .card {
+    padding: 1rem; /* Smaller padding */
+  }
+
+  .card h5 {
+    font-size: 1.25rem; /* Smaller font size for names */
+  }
+
+  .card p {
+    font-size: 1rem; /* Smaller font size for other text */
+  }
+
+  .img-fluid {
+    width: 75px; /* Smaller image size */
+  }
+}
+
+/* body
+{
+  background-color:black !important;
+}
+.navbar-links
+{
+  margin-left: 15%;
+}
+.navbar-links li 
+{
+  display: inline-block;
+  padding: 7px 45px;
+} 
+.navbar-links a 
+{
+  text-decoration: none;
+   list-style-type: none;
+   color: rgb(255, 255, 255);
+}
+@media screen and (max-width:1024px){
+  
+} */
+
